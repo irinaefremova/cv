@@ -1,0 +1,99 @@
+body {
+font-family: 'Arial', sans-serif;
+margin: 0;
+padding: 0;
+background-color: #f3f9f3; /* Светлый фон */
+color: #3b3d32; /* Темный цвет текста */
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.header {
+  margin: 40px 0;
+}
+
+header {
+background-color: #4b6f4b; /* Зелёный цвет для шапки */
+color: white;
+padding: 50px 20px;
+text-align: center;
+border-bottom: 4px solid #d1e5d1; /* Стилизация */
+}
+
+.links__link,
+.links__title {
+  font-size: 14px;
+  font-size: 1.4;
+  color: #57606a;
+}
+
+h1 {
+margin: 0;
+font-size: 2.5em;
+}
+
+p {
+font-size: 1.2em;
+}
+
+main {
+max-width: 800px;
+margin: 20px;
+padding: 20px;
+background: white;
+border-radius: 10px;
+box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+color: #5a7e5a; /* Зелёный для заголовков секций */
+margin-top: 20px;
+}
+
+ul {
+list-style-type: none;
+padding: 0;
+}
+
+.contact-form {
+display: flex;
+flex-direction: column;
+margin-top: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+margin: 10px 0;
+padding: 10px;
+border: 2px solid #a5c6a5; /* Светлый цвет для рамки */
+border-radius: 8px;
+transition: border 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+border: 2px solid #4b6f4b; /* Изменение цвета рамки при фокусе */
+}
+
+.contact-form button {
+background: #4b6f4b; /* Цвет кнопки */
+color: white;
+border: none;
+padding: 10px;
+border-radius: 8px;
+cursor: pointer;
+transition: background 0.3s;
+}
+
+.contact-form button:hover {
+background: #394f39; /* Цвет кнопки при наведении */
+}
+
+footer {
+text-align: center;
+padding: 20px;
+background: #4b6f4b; /* Цвет подвала */
+color: white;
+width: 100%;
+}
